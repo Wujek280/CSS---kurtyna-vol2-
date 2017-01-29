@@ -1,0 +1,19 @@
+* {	
+	font-family: Lato;
+}
+
+body > #container {
+    font-size: 16px;
+	background-color: #303030;
+    width: 100vw;
+    height: 100vh;
+    font-size: 0;
+}
+
+#top{
+ 
+}
+
+#bottom{
+
+}

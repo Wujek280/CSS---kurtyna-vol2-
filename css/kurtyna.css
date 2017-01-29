@@ -1,0 +1,45 @@
+.z-gory{
+    animation-name: z-gory;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    background-color: yellow;
+    width: 100vw;
+    height: 50vh;    
+}
+
+.z-dolu{
+    animation-name: z-dolu;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    background-color: steelblue;
+    width: 100vw;
+    height: 50vh;
+}
+
+@keyframes z-gory {
+    
+      0%{
+        transform: translateY(-50vh);
+    }
+
+    100%{    
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes z-dolu {
+    
+      0%{
+        transform: translateY(50vh);
+    }
+
+    100%{    
+        transform: translateY(0);
+    }
+    
+}
+
+
+
+
