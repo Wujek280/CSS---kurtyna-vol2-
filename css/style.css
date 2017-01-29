@@ -2,6 +2,8 @@
 	font-family: Lato;
 }
 
+body{margin:0;overflow: hidden;}
+
 body > #container {
     font-size: 16px;
 	background-color: #303030;
